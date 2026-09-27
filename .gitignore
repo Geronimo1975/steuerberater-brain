@@ -1,0 +1,33 @@
+# ---------------------------------------------------------------
+# Date de mandant — NU ajung niciodată în git.
+# Fișele AKTE, cererile și scanurile conțin Steuernummer, IdNr.,
+# adrese și sume. Rămân strict local (CLAUDE.md, regula 5).
+# ---------------------------------------------------------------
+
+# Dosare reale: orice folder de la rădăcină în afara celor versionate
+/*/
+!/.claude/
+!/mandanten/
+/mandanten/*/
+!/mandanten/_TEMPLATE/
+
+# Registrul cu dosare reale (versionat doar șablonul)
+/mandanten/index.md
+
+# Profilul completat cu date reale (versionat doar șablonul)
+/CLAUDE.md
+
+# Documente și exporturi
+*.pdf
+*.p12
+*.pfx
+*.cer
+*.zip
+*.csv
+*.xlsx
+Antrag_*.txt
+Einspruch_*.txt
+
+# Sistem
+.DS_Store
+Thumbs.db
