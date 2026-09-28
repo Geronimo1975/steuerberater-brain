@@ -31,3 +31,7 @@ Einspruch_*.txt
 # Sistem
 .DS_Store
 Thumbs.db
+
+# Credențiale și tickets — strict local
+.env
+.env.*
